@@ -1,0 +1,377 @@
+body{
+    background-color:  #fff9ef;
+}
+.intro {
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    justify-content: flex-start; /* Aligns content to the left */
+    height: 100vh; /* Full viewport height */
+    padding-left: 250px; 
+    padding-right:250px;
+    text-align: right;
+   
+}
+.Name {
+    font-family: "Rubik Mono One";
+    font-size: 120px; /* Specify 'px' for font-size */
+    color: #344eab;
+    font-weight: bold; /* Optional for a stronger effect */
+    letter-spacing: 1px; /* Optional for spacing */
+   
+}
+.Description{
+    font-family: "Azeret Mono";
+    font-size: 15px; /* Specify 'px' for font-size */
+    font-weight: normal;
+    color: #091D58;
+    letter-spacing: -0.4px;
+    
+}
+
+h1 {
+    font-family: "Azeret Mono";
+    font-size: 32px; /* Specify 'px' for font-size */
+    color: #344EAB;
+    
+    
+}
+
+
+h2{
+    font-size: 64px;
+    color:#344eab;
+    font-family: "Martian Mono";
+    letter-spacing: 3px;
+}
+h3{ 
+    font-family: "Azeret Mono";
+    font-size: 40px;
+    color:  #3149a2;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+h4{
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    color:  #091e5d;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+p{
+    font-family: "Azeret Mono";
+    font-size: 14px;
+    color : #000000;
+    text-align: justify;
+}
+.button-container {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    display: flex; /* Align buttons in a row */
+    gap: 10px; /* Add space between buttons */
+}
+
+button {
+    background-color: #FFF9EF;
+    color: #6F96D1;
+    font-family: "Azeret Mono";
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 1.8 rem ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6F96D1;
+    color: #F7f2ef;
+}
+.loGo {
+    top: 1rem;
+    left:   1rem;
+    padding: 10px; /* Optional: Add some padding for better spacing */
+    display: flex; /* Aligns items in a row */
+    border-radius: 5px; /* Optional: Round the corners */
+}
+.btn {
+    background-color: transparent; /* Initially transparent */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn:hover {
+    background-color: #D9C6B5; /* Light brown color on hover */
+}
+.code-imitation {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height for vertical centering */
+}
+
+.code-imitation img {
+    transform: scale(1.1); /* Makes the image slightly larger */
+}
+
+
+
+
+footer {
+    background-color: #273A80;
+    color: #FFF9EF;
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically centered */
+
+}
+
+.contactme {
+    margin-right: 1rem;
+    /* Space between "Contact me" and "email" */
+    width: 831px;
+    height: 228px;
+    flex-shrink: 0;
+    color: #DBDBDB;
+    text-align: right;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Azeret Mono";
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 9.6px;
+margin-bottom: 6rem;
+    align-items: center;
+    /* Aligns items vertically centered */
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+ul li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+.email {
+    flex-shrink: 0;
+    color: #EEF1F6;
+    text-align: left;
+    /* Aligns text to the right */
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Martian Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.96px;
+    display: block;
+    /* Makes each link a block element */
+    margin-bottom: 6rem;
+}
+
+.linkedin {
+    flex-shrink: 0;
+    color: #EEF1F6;
+    text-align: left;
+    /* Aligns text to the right */
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Martian Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.96px;
+    display: block;
+    /* Makes each link a block element */
+    
+}
+
+.workPortfolio{
+    width: 100vw;
+    left: 1rem ;
+    right : 1rem; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+
+
+
+.dataAnalysis{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    gap:2rem;
+    padding-right:4rem;  
+}
+.dataAnalysis img{
+    gap:2rem;
+    padding: 2rem;
+   float: right;
+   max-width: 45%;
+     
+}
+.codimg :hover{
+    opacity: 0.9;                  /* Reduce opacity on hover */
+    transform: scale(1.05);        /* Slight zoom-in effect */
+    cursor: pointer;    
+}
+
+.Menu{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    gap:2rem;
+}
+#dashianMenu{
+    float: left;
+    gap:2rem;
+    padding: 2rem;
+}
+
+#dashianMenu h3{
+    display: block;
+    margin-block-start: 1 em;
+    margin-block-end: 0.5em;
+}
+
+
+#dashianMenu:hover{
+    opacity: 0.9;                  /* Reduce opacity on hover */
+    transform: scale(1.05);        /* Slight zoom-in effect */
+    cursor: pointer;    
+}
+
+.MenuText{ 
+    padding-right:4rem;  
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+.Menu img{
+    
+        gap:2rem;
+        padding: 2rem;
+       max-width: 45%;
+         
+    
+}
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  /* The popup form - hidden by default */
+.form-popup {
+    display: none; /* Hide the popup initially */
+    position: fixed; /* Fixed position relative to the screen */
+    top: 50%; /* Center the popup vertically */
+    left: 50%; /* Center the popup horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to ensure true centering */
+    width: 80%; /* Set width to 80% of the screen width */
+    max-width: 600px; /* Limit the width to a maximum of 600px */
+    height: auto; /* Let the height adjust automatically based on content */
+    max-height: 80vh; /* Ensure the popup doesn't exceed 80% of the screen height */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 9999; /* Ensure the popup is above other content */
+    overflow: auto; /* Allow scrolling if content exceeds the height */
+    box-sizing: border-box; /* Ensure padding doesn't affect width/height */
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center the text */
+    gap: 15px; /* Optional: space between elements */
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%; /* Make inputs take full width of the container */
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+/* When the inputs get focus, change background */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Style for the Close button */
+.btn.cancel {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.cancel:hover {
+    background-color: darkred;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) { /* Tablets and below */
+    .form-popup {
+        width: 90%; /* Increase width on smaller screens */
+        max-width: 500px; /* Limit max-width on medium screens */
+        padding: 15px; /* Adjust padding */
+    }
+    .form-container {
+        gap: 10px; /* Reduce the space between form elements on smaller screens */
+    }
+    .form-container h1 {
+        font-size: 1.5em; /* Adjust font size of title */
+    }
+    .form-container p {
+        font-size: 1em; /* Adjust font size of the description */
+        margin-bottom: 20px; /* Adjust bottom margin */
+    }
+}
+
+@media (max-width: 480px) { /* Smartphones and below */
+    .form-popup {
+        width: 95%; /* Even more width on small screens */
+        max-width: 400px; /* Limit max-width to 400px */
+    }
+    .form-container {
+        padding: 10px; /* Smaller padding for better fit */
+    }
+    .form-container h1 {
+        font-size: 1.2em; /* Smaller font size for title */
+    }
+    .form-container p {
+        font-size: 0.9em; /* Smaller font size for paragraph */
+    }
+    .btn.cancel {
+        padding: 8px 16px; /* Smaller button on mobile */
+    }
+}

@@ -1,0 +1,255 @@
+.titleContainer {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #EEF1F6;
+    text-align: center;
+    font-family: "Martian Mono";
+    font-size: 6em;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.intro {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFF9EF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Courier Prime";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+}
+
+h2 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #091E5D;
+    font-family: "Martian Mono";
+    font-size: 40px;
+}
+
+p {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #344EAB;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Courier Prime";
+    font-size: 1.8 rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.diseaseName {
+    color: #091E5D;
+    line-height: normal;
+}
+
+.genderType {
+    color: #344EAB;
+    line-height: normal;
+}
+
+.altTitle {
+    color: #091E5D;
+    font-size: 1.9 rem;
+    font-style: bold;
+}
+
+.infoDisease {
+    color: #6F96D1;
+    clear: both;
+    /* Ensure the paragraph doesn't overlap with floated elements */
+    line-height: 105%;
+}
+
+.right-img {
+    float: center;
+    /* Float the image to the right */
+    margin-left: 4rem;
+}
+
+.MaleFemaleColumn {
+
+    align-items: center;
+    /* Vertically center items */
+    column-count: 2;
+}
+
+.outroPara {
+    margin-top: 2rem;
+    /* Add some space above the conclusion */
+    clear: both;
+    /* Ensure it starts below floated elements if any */
+}
+
+.button-container {
+    position: absolute;
+    top: 1.5rem;
+    right: 16px;
+    font-size: 18px;
+    display: flex;
+    /* Align buttons in a row */
+    gap: 10px;
+    /* Add space between buttons */
+}
+
+button {
+    background-color:transparent;
+    color: #6F96D1;
+    font-family: "Azeret Mono";
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.loGo {
+    top: 1rem;
+    left:   1rem;
+    padding: 10px; /* Optional: Add some padding for better spacing */
+    display: flex; /* Aligns items in a row */
+    border-radius: 5px; /* Optional: Round the corners */
+}
+button:hover {
+    background-color: #6F96D1;
+    color: #F7f2ef;
+}
+
+.row {
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: space-between;
+    /* Space out the columns equally */
+}
+
+.column {
+    flex: 0 0 45%;
+    /* Set each column to take 45% of the width */
+    padding: 3rem;
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+.AllDiseaseInfo {
+    text-align: center;
+    /* Center text inside the div */
+    margin: 0 auto;
+    /* Center the div itself */
+    max-width: 1200px;
+    /* Optional: Limit the width of the content */
+    padding: 1rem;
+    /* Optional: Add some padding for spacing */
+}
+
+.contentOverview {
+    display: flex;
+    /* Use Flexbox for layout */
+    align-items: center;
+    /* Vertically center items */
+}
+
+.contentOverview img {
+    margin-right: 1rem;
+    /* Add space between the image and the text */
+    margin-left: 4rem;
+}
+
+.contentOverview p {
+    max-width: 75%;
+    /* Optional: limit the width of the paragraph */
+}
+
+footer {
+    background-color: #273A80;
+    color: #FFF9EF;
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically centered */
+
+}
+
+.contactme {
+    margin-right: 1rem;
+    /* Space between "Contact me" and "email" */
+    width: 831px;
+    height: 228px;
+    flex-shrink: 0;
+    color: #DBDBDB;
+    text-align: right;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Azeret Mono";
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 9.6px;
+margin-bottom: 6rem;
+    align-items: center;
+    /* Aligns items vertically centered */
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FFF9EF;
+}
+
+.email {
+    flex-shrink: 0;
+    color: #EEF1F6;
+    text-align: left;
+    /* Aligns text to the right */
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Martian Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.96px;
+    display: block;
+    /* Makes each link a block element */
+    margin-bottom: 6rem;
+}
+
+.linkedin {
+    flex-shrink: 0;
+    color: #EEF1F6;
+    text-align: left;
+    /* Aligns text to the right */
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Martian Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.96px;
+    display: block;
+    /* Makes each link a block element */
+    
+}
